@@ -1,0 +1,27 @@
+William Hibbert
+CSNE-2923-01
+Efficiency Analysis
+10/08/2021
+
+Selection Sort:
+
+Selection Sort has O(n^2) due to the sort method having a for loop that calls getIndexOfSmallest which has another for loop dependent on array size.
+
+
+Insertion Sort:
+
+Insertion Sort has O(n) due to its recursive function to sort the array
+
+
+
+Merge Sort:
+
+Merge Sort has an efficiency of O(nLog(n)) due to recursion and having to use temporary arrays
+
+
+Quick Sort:
+
+Quick Sort has an efficiency of O(nLog(n)) its as efficient as merge sort but can be faster due to not having as many temporary arrays
+
+
+
